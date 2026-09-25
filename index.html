@@ -114,32 +114,37 @@
 
                     <!-- Row 3 -->
                     <div class="col-md-4">
-                        <label class="form-label fw-semibold small">Datasets Used</label>
+                        <label class="form-label fw-semibold small">Datasets Used<span class="text-danger">*</span></label>
                         <input type="text" class="form-control bg-light" name="Datasets Used"
-                            placeholder="e.g. IFHRMS, PDS, CRS, etc.,">
+                            placeholder="e.g. IFHRMS, PDS, CRS, etc.," required>
                     </div>
                     <div class="col-md-4">
-                        <label class="form-label fw-semibold small">Date for Data Dump</label>
-                        <input type="date" class="form-control bg-light" name="Date for Data Dump">
-                    </div>
+                        <label class="form-label fw-semibold small">Date for Data Dump<span class="text-danger">*</span></label>
+                        <input type="date" class="form-control bg-light" name="Date for Data Dump" required>
+                    </div> 
                     <div class="col-md-4">
-                        <label class="form-label fw-semibold small">Received Count</label>
-                        <input type="text" class="form-control bg-light" name="Received Count"
-                            placeholder="e.g. 25,000">
+                        <label class="form-label fw-semibold small">Analysis Outcome<span class="text-danger">*</span></label>
+                        <textarea class="form-control bg-light" name="Analysis Outcome"
+                            placeholder="e.g. Cleaned & Validated" rows="4" required></textarea>
                     </div>
 
                     <!-- Row 4 -->
-                    <div class="col-md-4">
-                        <label class="form-label fw-semibold small">Result Shared Mode</label>
+                    <div class="col-md-3">
+                        <label class="form-label fw-semibold small">Result Shared Mode<span class="text-danger">*</span></label>
                         <input type="text" class="form-control bg-light" name="Result Shared Mode"
-                            placeholder="e.g. Email, Shared Drive, Portal">
+                            placeholder="e.g. Email, Shared Drive, Portal" required>
                     </div>
-                    <div class="col-md-4">
-                        <label class="form-label fw-semibold small">Analysis Outcome</label>
-                        <textarea class="form-control bg-light" name="Analysis Outcome"
-                            placeholder="e.g. Cleaned & Validated" rows="4"></textarea>
+                     <div class="col-md-3">
+                        <label class="form-label fw-semibold small">Received Count<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control bg-light" name="Received Count"
+                            placeholder="e.g. 25,000" required>
+                    </div> 
+                    <div class="col-md-3">
+                        <label class="form-label fw-semibold small">Savings(if any)<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control bg-light" name="Savings(if any)"
+                            placeholder="e.g. 10,000" required>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label class="form-label fw-semibold small">Status <span class="text-danger">*</span></label>
                         <select class="form-select bg-light" name="Status" required>
                             <option value="Pending" selected>Pending</option>

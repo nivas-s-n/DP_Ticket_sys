@@ -443,7 +443,7 @@ function populateForm(form, record) {
         'Requested Department', 'Request Date', 'Letter / Email Reference',
         'Action Taken By', 'Problem Statement / Objective', 'Datasets Used',
         'Date for Data Dump', 'Received Count', 'Completed Date',
-        'Result Shared Mode', 'Analysis Outcome', 'File Path (if any)',
+        'Result Shared Mode', 'Analysis Outcome', 'Savings (if any)',
         'Action Taken', 'Status'
     ];
 
