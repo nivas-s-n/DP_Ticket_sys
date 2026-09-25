@@ -444,7 +444,7 @@ function populateForm(form, record) {
         'Action Taken By', 'Problem Statement / Objective', 'Datasets Used',
         'Date for Data Dump', 'Received Count', 'Completed Date',
         'Result Shared Mode', 'Analysis Outcome', 'File Path (if any)',
-        'Action Taken', 'Status', 'Savings (if any)'
+        'Action Taken', 'Status', 'Savings'
     ];
 
     fieldsToFill.forEach(field => {
